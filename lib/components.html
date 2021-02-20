@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Component Library</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <h1>saurabh's component library</h1>
+    <p>
+      I am attending neog.camp and I want to make a library which would make all
+      my projects look good and consistent.
+    </p>
+
+    <hr />
+
+    <h2>@typography</h2>
+
+    <h1>This is a h1 tag</h1>
+    <h2>This is a h2 tag</h2>
+    <p>this is s p tag</p>
+    <small>This is a small tag</small>
+    <p>this para has a <strong>bold</strong> tag</p>
+
+    <hr />
+    <h2>@container</h2>
+
+    <h3>fluid container</h3>
+    <div class="container container-fluid">
+      This is a fluid container and it will go till the end of the page
+    </div>
+
+    <h3>center container</h3>
+    <div class="container container-center">
+      This is a center container and it will go till the specifeid width
+    </div>
+
+    <hr />
+
+    <h2>@links</h2>
+
+    <a class="link-primary" href="#">primary link</a>
+    <a class="link-secondary" href="#"> secondarylink</a>
+
+    <hr />
+
+    <h2>List</h2>
+    <h3>unorder list</h3>
+    <p>this list will not have the bullets</p>
+
+    <ul class="list-non-bullets">
+      <li>Item one</li>
+      <li>Item one</li>
+      <li>Item one</li>
+      <li>Item one</li>
+    </ul>
+
+    <h3>unorder inline list</h3>
+
+    <ul class="list-non-bullets">
+      <li class="list-inline">Inline Item one</li>
+      <li class="list-inline">Inline Item one</li>
+      <li class="list-inline">Inline Item one</li>
+    </ul>
+
+    <h3>reverse ordered list</h3>
+    <ol reversed>
+      <li>milk</li>
+      <li>eggs</li>
+      <li>break</li>
+    </ol>
+
+    <hr />
+
+    <h2>@nav</h2>
+
+    <nav class="navigation container">
+      <div class="nav-brand">saurabh</div>
+      <ul class="list-non-bullets nav-pills">
+        <li class="list-inline">
+          <a class="link-active" href="#">Home</a>
+        </li>
+        <li class="list-inline">
+          <a href="#">projects</a>
+        </li>
+        <li class="list-inline">
+          <a href="#">blogs</a>
+        </li>
+      </ul>
+    </nav>
+
+    <hr />
+
+    <h2>header</h2>
+
+    <header class="hero">
+      <img class="hero-img" src="/images/freelance.svg" alt="" />
+      <h1 class="hero-heading">
+        Saurabh Daswant the <span class="webdev"> web developer</span>
+      </h1>
+    </header>
+
+    <hr />
+
+    <section class="section">
+      <div class="container container-center">
+        <h1>projects</h1>
+        <p>
+          I like to showcase my work and thus, you can see my projects hosted
+          online Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+          quam. Deserunt magni eaque soluta ex optio earum repellat eveniet
+          aspernatur consectetur ut fuga qui accusantium, voluptatibus
+          perspiciatis aliquid magnam delectus quo placeat tempore. Et
+          recusandae totam aliquam officia iusto accusamus quos ea inventore
+          corrupti numquam sunt, voluptatum, dolor ullam earum!
+        </p>
+        <a class="link link-primary" href="/projects.html">See Projects</a>
+      </div>
+    </section>
+
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>blogs</h1>
+        <p>
+          I am also working on some technical and non techincal blogs. I like to
+          document my journey of learning.
+        </p>
+        <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
+      </div>
+    </section>
+
+    <hr />
+    <h2>@footer</h2>
+    <footer class="footer container">
+      <div class="footer-header">some small heading inside footer</div>
+      <ul class="social-links list-non-bullets">
+        <li class="list-inline"><a class="link" href="#"> socilaone</a></li>
+        <li class="list-inline"><a class="link" href="#"> socilatwo</a></li>
+        <li class="list-inline"><a class="link" href="#"> socilathree</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

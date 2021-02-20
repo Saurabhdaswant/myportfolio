@@ -4,113 +4,92 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Component Library</title>
+    <title>Home | portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-    <h1>saurabh's component library</h1>
-    <p>
-      I am attending neog.camp and I want to make a library which would make all
-      my projects look good and consistent.
-    </p>
-
-    <hr />
-
-    <h2>@typography</h2>
-
-    <hr />
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div>
-      This is a center container and it will go till the specifeid width
-    </div>
-
-    <hr />
-
-    <h2>@links</h2>
-
-    <a href="#">primary link</a>
-    <a href="#"> secondarylink</a>
-
-    <hr />
-
-    <h2>List</h2>
-    <h3>unorder list</h3>
-
-    <ul>
-      <li>Item one</li>
-      <li>Item one</li>
-      <li>Item one</li>
-      <li>Item one</li>
-    </ul>
-
-    <h3>unorder inline list</h3>
-
-    <ul>
-      <li>Inline Item one</li>
-      <li>Inline Item one</li>
-      <li>Inline Item one</li>
-    </ul>
-
-    <h3>reverse ordered list</h3>
-    <ol>
-      <li>milk</li>
-      <li>eggs</li>
-      <li>break</li>
-    </ol>
-
-    <hr />
-
-    <h2>@nav</h2>
-
-    <nav>
-      <div>saurabh</div>
-      <ul>
-        <li>
-          <a href="#">Home</a>
+    <nav class="navigation container">
+      <div class="nav-brand">saurabh</div>
+      <ul class="list-non-bullets nav-pills">
+        <li class="list-inline">
+          <a class="link-active" href="#">Home</a>
         </li>
-        <li>
-          <a href="#">projects</a>
+        <li class="list-inline">
+          <a href="#">Projects</a>
         </li>
-        <li>
-          <a href="#">blogs</a>
+        <li class="list-inline">
+          <a href="#">Blogs</a>
         </li>
       </ul>
     </nav>
 
-    <hr />
-
-    <h2>header</h2>
-
-    <header>
-      <img src="images/freelance.svg" alt="" />
-      <h1>heading inside hero</h1>
+    <header class="hero">
+      <img class="hero-img" src="/images/freelance.svg" alt="" />
+      <h1 class="hero-heading">
+        Saurabh Daswant the <span class="webdev"> web developer</span>
+      </h1>
     </header>
+    >
 
-    <hr />
-
-    <h2>@section</h2>
-    <section>
-      <h3>whitesection</h3>
-      <p>This will have white background</p>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>technologies</h1>
+        <p>
+          I'm familiar with HTML5,CSS3,Git,JavaScript,NodeJS,ReactJS,and Web
+          Hosting
+        </p>
+      </div>
     </section>
 
-    <section>
-      <h3>off whitebsection</h3>
-      <p>This will have gray background</p>
+    <section class="section">
+      <div class="container container-center">
+        <h1>Projects</h1>
+        <p>
+          I like to showcase my work and thus, you can see my projects hosted
+          online
+        </p>
+        <a class="link link-primary" href="projects.html">Browse Projects</a>
+      </div>
     </section>
-    <hr />
-    <h2>@footer</h2>
-    <footer>
-      <div>some small heading inside footer</div>
-      <ul>
-        <li>socilaone</li>
-        <li>socilatwo</li>
-        <li>socilathree</li>
+
+    <section class="section">
+      <div class="container container-center">
+        <h1>Blogs</h1>
+        <p>
+          I like to showcase my work and thus, you can see my projects hosted
+          online
+        </p>
+        <a class="link link-secondary" href="blogs.html">Read Blogs</a>
+      </div>
+    </section>
+
+    <footer class="footer container">
+      <div class="footer-header">digital presence</div>
+      <ul class="social-links list-non-bullets">
+        <li class="list-inline">
+          <a
+            class="link"
+            href="https://github.com/Saurabhdaswant"
+            target="_blank"
+            >Github</a
+          >
+        </li>
+        <li class="list-inline">
+          <a
+            class="link"
+            href="https://www.instagram.com/____.saurabhxx.____/"
+            target="_blank"
+            >Instagram</a
+          >
+        </li>
+        <li class="list-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/saurabh-daswant-0345561ba/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
       </ul>
     </footer>
   </body>
