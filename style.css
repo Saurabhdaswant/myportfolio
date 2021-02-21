@@ -60,6 +60,7 @@ hr{
 /** list **/
 .list-non-bullets{
     list-style: none;
+    ;
     
 }
 
@@ -83,11 +84,14 @@ hr{
 .navigation .nav-brand{
     font-size:1.4rem;
     font-weight:bold;
+    margin-left: 4rem;
 }
 .navigation .nav-pills{
     text-align: right;
+    margin-right: 4rem;
 }
 .navigation a {
+    padding-left: 1rem;
     color: white;
     text-decoration: none;
 }
@@ -157,4 +161,36 @@ footer{
 .list-inline .link{
     text-decoration: none;
     color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:var(--primary-color);
+        padding: 1rem;
+        border-bottom-left-radius: 1rem ;
+    }
+    
+    .navigation .nav-brand{
+        font-size:1.4rem;
+        font-weight:bold;
+    }
+    .navigation .nav-pills{
+        text-align: right;
+        padding: 0;
+    }
+    .navigation a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .navigation .link-active{
+        font-weight: bold;
+    }
+
+    
 }
