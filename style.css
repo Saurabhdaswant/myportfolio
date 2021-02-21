@@ -84,14 +84,11 @@ hr{
 .navigation .nav-brand{
     font-size:1.4rem;
     font-weight:bold;
-    margin-left: 4rem;
 }
 .navigation .nav-pills{
     text-align: right;
-    margin-right: 4rem;
 }
 .navigation a {
-    padding-left: 1rem;
     color: white;
     text-decoration: none;
 }
@@ -162,7 +159,6 @@ footer{
     text-decoration: none;
     color: white;
 }
-
 
 @media only screen and (max-width: 600px) {
 
