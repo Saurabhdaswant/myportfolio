@@ -162,22 +162,39 @@ footer{
 
 @media only screen and (max-width: 600px) {
 
+
+
+    .hero .hero-img{
+        max-width: 250px;
+        display: block;
+        margin: auto;
+    }
+
+    .hero .hero-heading{
+        text-align: center;
+        padding: 0;
+        color: var(--dark-gray);
+    }
+
+
+
     .navigation{
         display: flex;
         justify-content: space-between;
         align-items: center;
         background-color:var(--primary-color);
-        padding: 1rem;
+        padding: 1rem 0px 1rem 0px;
         border-bottom-left-radius: 1rem ;
     }
     
     .navigation .nav-brand{
+        display: none;
         font-size:1.4rem;
         font-weight:bold;
     }
     .navigation .nav-pills{
-        text-align: right;
-        padding: 0;
+        margin: auto;
+        padding: 1rem;
     }
     .navigation a {
         color: white;
