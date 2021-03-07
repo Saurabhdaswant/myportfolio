@@ -10,26 +10,41 @@
   <body>
     <nav class="navigation container">
       <div class="nav-brand">saurabh</div>
-      <ul class="list-non-bullets nav-pills">
-        <li class="list-inline">
-          <a class="link-active" href="#">Home</a>
-        </li>
-        <li class="list-inline">
-          <a href="/projects.html" target="_blank">Projects</a>
-        </li>
-        <li class="list-inline">
-          <a href="/blogs.html " target="_blank">Blogs</a>
-        </li>
-      </ul>
+      <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <ul id="nav" class="nav list-non-bullets nav-pills">
+          <li class="list-inline">
+            <a class="link-active">Home</a>
+          </li>
+          <li class="list-inline">
+            <a href="hero-heading">About</a>
+          </li>
+          <li class="list-inline">
+            <a href=".section ow">Technologies</a>
+          </li>
+          <li class="list-inline">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="list-inline">
+            <a href="#Blogs">Blogs</a>
+          </li>
+          <li class="list-inline">
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <header class="hero">
-      <img class="hero-img" src="/images/freelance.svg" alt="" />
+      <img class="hero-img" src="/img/undraw_feeling_proud_qne1.png" alt="" />
       <h1 class="hero-heading">
         Saurabh Daswant the <span class="webdev"> web developer</span>
       </h1>
     </header>
-    >
 
     <section class="section ow">
       <div class="container container-center">
@@ -42,18 +57,17 @@
     </section>
 
     <section class="section">
-      <div class="container container-center">
+      <div id="projects" class="container container-center">
         <h1>Projects</h1>
         <p>
           I like to showcase my work and thus, you can see my projects hosted
           online
         </p>
-        <a class="link link-primary" href="projects.html">Browse Projects</a>
       </div>
     </section>
 
     <section class="section">
-      <div class="container container-center">
+      <div id="Blogs" class="container container-center">
         <h1>Blogs</h1>
         <p>
           I like to showcase my work and thus, you can see my projects hosted
@@ -71,7 +85,7 @@
             class="link"
             href="https://github.com/Saurabhdaswant"
             target="_blank"
-            ><img src="/images/iconmonstr-github-1.svg" alt=""
+            ><img src="/img/git.svg" alt=""
           /></a>
         </li>
         <li class="list-inline">
@@ -79,7 +93,7 @@
             class="link"
             href="https://www.instagram.com/____.saurabhxx.____/"
             target="_blank"
-            ><img src="/images/iconmonstr-instagram-11 (1).svg" alt=""
+            ><img src="/img/ig.svg" alt=""
           /></a>
         </li>
         <li class="list-inline">
@@ -87,10 +101,11 @@
             class="link"
             href="https://www.linkedin.com/in/saurabh-daswant-0345561ba/"
             target="_blank"
-            ><img src="/images/iconmonstr-linkedin-3.svg" alt=""
+            ><img src="/img/in.svg" alt=""
           /></a>
         </li>
       </ul>
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>
