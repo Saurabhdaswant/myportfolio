@@ -1,3 +1,12 @@
+function onClickMenu(){
+    
+  document.getElementById("menu").classList.toggle("change");
+  document.getElementById("nav").classList.toggle("change");
+}
+
+
+
+
 window.addEventListener("DOMContentLoaded", function () {
     // get the form elements defined in your form HTML above
   
