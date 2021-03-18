@@ -8,15 +8,13 @@
 }
 
 *{
-    scroll-behavior: smooth;
-}
-
-body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-
+    scroll-behavior: smooth;
 }
+
+
 
 hr{
     margin: 2rem 0rem;
