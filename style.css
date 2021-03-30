@@ -115,6 +115,67 @@ hr{
     border: 1px solid var(--primary-color);
 }
 
+/*! projects*/
+.project-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+    .project-item {
+      /* background: #cccccc; */
+      width: 25rem;
+      height: 20rem;
+      opacity: 0.5;
+      border-radius: 2rem;
+      position: relative;
+    }
+  
+    .project-item:hover{
+      opacity: 1;
+    }
+  .project-VS{
+    color: #5b7280;
+    border: solid 2px #536dfe;
+    border-radius: 10px;
+    /* background: #f3f4f6; */
+    height:5rem;
+    width:8rem;
+    display: inline-block;
+    position:absolute;
+    top: 7rem;
+    left:8rem;
+  } 
+  
+  .project-bg-1{
+    background: url(img/project-1.jpg);
+    background-size:cover;
+  }
+  .project-bg-2{
+    background: url(img/pexels-pixabay-301703\ \(1\).jpg);
+    background-size:cover;
+  }
+  .project-bg-3{
+    background: url(img/pexels-pixabay-459654.jpg);
+    background-size:cover;
+  }
+  @media screen and (max-width: 400px) {
+    .project-container {
+      flex-direction: column;
+      align-items: center;
+      
+    }
+  
+    .project-item {
+      margin: 2rem;
+      max-width:300px;
+    }
+  
+    .project-VS{
+      top: 7rem;
+      left:5rem;
+    }
+  }
+
 /*! sections */
 
 
