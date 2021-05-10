@@ -50,6 +50,11 @@ hr {
   list-style: none;
 }
 
+.hover__link:hover {
+  transition: 0.2s;
+  border-bottom: 2px solid rgb(73, 31, 224);
+}
+
 /*! header  */
 
 .hero {
